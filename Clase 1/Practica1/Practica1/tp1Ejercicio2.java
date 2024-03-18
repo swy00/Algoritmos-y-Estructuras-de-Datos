@@ -1,6 +1,6 @@
 package Practica1;
 import java.util.Scanner;
-public class tp1ejercicio2 {
+public class tp1Ejercicio2 {
 
 	public static int[] multiplosEnteros(int n) {
 		int k=n;

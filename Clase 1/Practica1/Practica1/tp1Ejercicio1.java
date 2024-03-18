@@ -1,6 +1,6 @@
 package Practica1;
 
-public class tp1ejercicio1 {
+public class tp1Ejercicio1 {
 
 	public static void main(String[] args) {
 		int a = 10;
