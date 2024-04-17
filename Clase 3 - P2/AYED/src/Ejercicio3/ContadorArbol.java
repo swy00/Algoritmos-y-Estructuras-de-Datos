@@ -35,11 +35,11 @@ public class ContadorArbol {
 	
 	private void listaParInorden(List<Integer> lista, BinaryTree<Integer> arb) {
 		
-		//Recorrido INORDEN (Izquierda - Raiz - Derecha)
+		//INORDEN (Izquierda - Raiz - Derecha)
 		if (arb.hasLeftChild()) {
 			listaParInorden(lista, arb.getLeftChild());
 		}
-		//Preguntar si la data del nodo es par
+		//Checkeo data del nodo es par
 		if (arb.getData() % 2 == 0) {
 			lista.add(arb.getData());
 		}
