@@ -1,5 +1,4 @@
-package tp2.ejercicio2;
-
+package Ejercicio1;
 
 public class BinaryTree <T> {
 	
